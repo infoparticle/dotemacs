@@ -2,7 +2,7 @@
 
 (setq projectile-cache-file (concat dotemacs-cache-directory "projectile.cache"))
 (setq projectile-known-projects-file (concat dotemacs-cache-directory "projectile-bookmarks.eld"))
-(setq projectile-indexing-method 'alien)
+(setq projectile-indexing-method 'turbo-alien)
 (setq projectile-enable-caching t)
 (setq projectile-completion-system dotemacs-switch-engine)
 
